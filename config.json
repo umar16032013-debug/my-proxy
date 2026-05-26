@@ -13,12 +13,9 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "my-proxy-production-ae3f.up.railway.app"
-          }
+        "network": "h2",
+        "httpSettings": {
+          "path": "/ray"
         }
       }
     }
