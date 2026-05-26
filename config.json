@@ -15,7 +15,10 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/"
+          "path": "/",
+          "headers": {
+            "Host": "my-proxy-production-ae3f.up.railway.app"
+          }
         }
       }
     }
