@@ -1,20 +1,20 @@
 {
-  "inbounds": [{
-    "port": 8080,
-    "protocol": "vless",
-    "settings": {
-      "clients": [{ "id": "7ede1cbd-d814-4d9e-8414-45f5a419dc31", "flow": "xtls-reality-vision" }],
-      "decryption": "none"
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "dest": "yandex.ru:443",
-        "serverNames": ["yandex.ru"],
-        "privateKey": "-GhqGphIw7DKFILqFiGFgQ7VxP3NFEsGOGcdRBMIUng",
-        "shortIds": ["7a9b0c"]
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "7ede1cbd-d814-4d9e-8414-45f5a419dc31",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp"
       }
     }
-  }]
+  ]
 }
